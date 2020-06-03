@@ -1,0 +1,62 @@
+*{margin:0; padding: 0;}
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+a {
+    color: white !important;
+}
+@media (max-width:576px){
+    *{}
+
+ul.navbar-nav {
+    text-align: center !important;
+    margin-left: -133px;
+    /* background: #00000059; */
+}
+
+.row.hihi {
+    left: 4% !important;
+    margin-top:2% !important;
+    /* top: -18px !important; */
+}
+
+.btn.btn-warning {
+    float: none !important;
+}
+
+.col-sm-4 {
+    text-align: center !important;
+}
+
+a {
+    text-align: center !important;
+}
+
+a.nav-link:hover {
+    transition: 0.4s;
+    color: whitesmoke;
+    background: #00000026;
+}
+
+a.navbar-brand {
+    padding: 0 !important;
+    margin: 0px !important;
+}
+}
+a.navbar-brand {
+    margin-left: 190px;
+}
+
+div#collapsibleNavbar {
+    margin-left: 132px;
+    font-size: 15px;
+}
+.gioithieu{
+    position: relative;
+}
+.row.hihi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10%;
+}
