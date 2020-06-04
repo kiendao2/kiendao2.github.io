@@ -8,6 +8,10 @@ a {
 @media (max-width:576px){
     *{}
 
+p.Text {
+    width: 100% !important;
+}
+
 .col-sm-6 {
     padding-top: 30px;
 }
@@ -135,4 +139,32 @@ text-align: center;
     z-index: 2;
     /* position: absolute; */
     position: relative;
+}
+.anhOurproject{
+    position: relative;
+    height: 600px;
+}
+.den{
+    position: absolute;
+    top:0;
+    left:0;
+    background: #000000d6;
+    height: 300px;
+    width: 100%;
+    color:white;
+}
+.btn.btn-outline-success {
+    color: #ffffffb8;
+    border-color: #ffffff57;
+    width: 100px;
+}
+.btn.btn-warning {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffffff85;
+    width: 100px;
+}
+p.Text {
+    padding-bottom: 13px;
+    padding-top: 10px;
 }
