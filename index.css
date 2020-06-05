@@ -8,6 +8,14 @@ a {
 @media (max-width:576px){
     *{}
 
+.col-sm-3.member {
+    margin-top: 60px !important;
+}
+
+img.ourTeam {
+    height: 100% !important;
+}
+
 strong.IT2Member {
     padding-left: 4%;
 }
@@ -20,7 +28,7 @@ i.fab.fa-facebook-f {
 .lienhe {
     width: 60% !important;
     left: 20% !important;
-    bottom: 11% !important;
+    bottom: -3% !important;
 }
 
 i.fab.fa-twitter {
@@ -250,7 +258,7 @@ p.discussion {
 img.ourTeam {
     width: 100%;
     border: solid 1px burlywood;
-    height: 560px;
+    height: 380px;
 }
 
 .col-sm-3 {
