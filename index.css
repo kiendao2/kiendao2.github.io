@@ -8,6 +8,29 @@ a {
 @media (max-width:576px){
     *{}
 
+strong.IT2Member {
+    padding-left: 4%;
+}
+
+i.fab.fa-facebook-f {
+    padding-left: 20% !important;
+    padding-top: 6% !important;
+}
+
+.lienhe {
+    width: 60% !important;
+    left: 20% !important;
+    bottom: 11% !important;
+}
+
+i.fab.fa-twitter {
+    padding: 0px 25px !important;
+}
+
+p {
+    margin: auto;
+}
+
 p.Text {
     width: 100% !important;
 }
@@ -58,7 +81,6 @@ a.navbar-brand {
 a.navbar-brand {
     margin-left: 190px;
 }
-
 div#collapsibleNavbar {
     margin-left: 132px;
     font-size: 15px;
@@ -142,7 +164,7 @@ text-align: center;
 }
 .anhOurproject{
     position: relative;
-    height: 600px;
+    height: 300px;
 }
 .den{
     position: absolute;
@@ -167,4 +189,95 @@ text-align: center;
 p.Text {
     padding-bottom: 13px;
     padding-top: 10px;
+}
+.col-sm-3 {
+    padding: 0 !important;
+}
+.hi{
+position: relative;
+height: 100%;
+}
+.overlay{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+background:#000000b8;
+color:white;
+padding-top:32%;
+opacity: 0;
+visibility: hidden;
+border: solid 5px #fec500;
+}
+.hi img{
+    width: 100%;
+    height: 100%;
+}
+.hi:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+    background: #000000b8;
+}
+.btn.btn-warning.mission {
+    width: 120px;
+}
+.col-sm-4 {
+    padding: 0px !important;
+    overflow: hidden;
+}
+.process{
+    display: inline-flex;
+}
+.process1 {
+    padding: 0 15px;
+    position: relative;
+    display: inline-block;
+}
+.duongthang{
+    content:"";
+    background: #000000b8;
+    width: 1px;
+    height: 63px;
+    position: absolute;
+    top: 0px;
+    left: 96%;
+}
+p.discussion {
+    margin-left: -14px;
+}
+img.ourTeam {
+    width: 100%;
+    border: solid 1px burlywood;
+    height: 560px;
+}
+
+.col-sm-3 {
+    position: relative;
+}
+
+.lienhe {
+    background: #fec500;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    left: 13%;
+    width: 75%;
+    height: 6%;
+    border-radius: 3px;
+    /* margin: auto; */
+    margin-left: 1;
+}
+
+i.fab.fa-facebook-f {
+    padding: 9px 20px;
+}
+
+i.fab.fa-twitter {
+    padding: 3px 42px;
+}
+
+i.fab.fa-google-plus-g {
+    padding: 9px 12px;
 }
