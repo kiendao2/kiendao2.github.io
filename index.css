@@ -5,8 +5,28 @@ body{
 a {
     color: white !important;
 }
+span.navbar-toggler-icon {
+    background: #fec500;
+}
 @media (max-width:576px){
     *{}
+
+.col-sm-3.abc {
+    text-align: center;
+}
+
+.col-sm-3.newletter {
+    text-align: center !important;
+}
+
+.col-sm-3.ctus {
+    text-align: center;
+}
+
+.col-sm-2.text-xs-center {
+    text-align: center;
+    list-style: none !important;
+}
 
 .col-xs-4.col-md-2 {
     float: left !important;
@@ -15,11 +35,6 @@ a {
 
 .row {
 }
-
-.col-xs-4.col-md-2 {
-    display:;
-}
-
 .row.ahihi {
     text-align: center;
 }
@@ -105,6 +120,9 @@ a.navbar-brand {
     padding: 0 !important;
     margin: 0px !important;
 }
+ul{
+    list-style: none;
+}
 }
 a.navbar-brand {
     margin-left: 190px;
@@ -187,6 +205,7 @@ text-align: center;
     width: 80%;
     height: 100%;
     z-index: 2;
+    object-fit: cover;
     /* position: absolute; */
     position: relative;
 }
@@ -279,6 +298,7 @@ img.ourTeam {
     width: 100%;
     border: solid 1px burlywood;
     height: 380px;
+    object-fit: cover;
 }
 img.ourTeam:hover{
     box-shadow: 10px 10px 5px #aaaaaa;
@@ -300,19 +320,49 @@ img.ourTeam:hover{
     /* margin: auto; */
     margin-left: 1;
 }
-
-i.fab.fa-facebook-f {
-    padding: 9px 20px;
-}
-
-i.fab.fa-twitter {
-    padding: 3px 42px;
-}
-
-i.fab.fa-google-plus-g {
-    padding: 9px 12px;
-}
 .award:hover{
     box-shadow: 10px 10px 5px #aaaaaa;
     transition: 0.4s;
+}
+.iconn {
+    display: flex !important;
+    padding: 0px 12px !important;
+}
+.fb{
+    padding:0p 12px !important;
+}
+input#fname {
+    margin-top: 10px;
+    background: #343434;
+    color: white;
+    border: solid 1px white;
+}
+
+input[type="password"] {
+    margin-top: 10px;
+    background: #343434;
+    border: solid 0.5px white;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    color: black;
+    background: #fec500;
+    width: 90px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+textarea {
+    margin-top: 10px !important ;
+    background: #343434;
+    color:white;
+}
+@media(min-width:768px) and (max-width:978){
+    *{}
+
+strong.navigation {
+    margin-left: -12px;
+}
+    
 }
