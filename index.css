@@ -8,6 +8,26 @@ a {
 @media (max-width:576px){
     *{}
 
+.col-xs-4.col-md-2 {
+    float: left !important;
+    width: 33%;
+}
+
+.row {
+}
+
+.col-xs-4.col-md-2 {
+    display:;
+}
+
+.row.ahihi {
+    text-align: center;
+}
+
+.col-sm-5 {
+    padding-top: 20px;
+}
+
 .col-sm-3.member {
     margin-top: 60px !important;
 }
@@ -260,7 +280,10 @@ img.ourTeam {
     border: solid 1px burlywood;
     height: 380px;
 }
-
+img.ourTeam:hover{
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transition: 0.4s;
+}
 .col-sm-3 {
     position: relative;
 }
@@ -288,4 +311,8 @@ i.fab.fa-twitter {
 
 i.fab.fa-google-plus-g {
     padding: 9px 12px;
+}
+.award:hover{
+    box-shadow: 10px 10px 5px #aaaaaa;
+    transition: 0.4s;
 }
