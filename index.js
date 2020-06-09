@@ -15,4 +15,6 @@ function checkPw(form) {
 }
 setTimeout(function(){
     alert("Để lại lời nhắn phía cuối trang :< ");
-}, 10000);
+}, 20000);
+var d= new Date();
+console.log(d);

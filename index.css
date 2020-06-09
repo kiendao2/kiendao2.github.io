@@ -11,6 +11,20 @@ span.navbar-toggler-icon {
 @media (max-width:576px){
     *{}
 
+.lienhe2 {
+    margin-top: 0 !important;
+}
+
+.phai {
+    float: none !important;
+    margin: auto;
+}
+
+.trai {
+    float: none !important;
+    margin: auto;
+}
+
 .col-sm-3.abc {
     text-align: center;
 }
@@ -365,4 +379,93 @@ strong.navigation {
     margin-left: -12px;
 }
     
+}
+.contact01{
+    background: url("images/ContactImage_02.jpg");
+    height: 200px;
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+}
+.dacap{
+    text-align: center !important ;
+    padding-top: 70px;
+    margin:auto;
+    color:white;
+    font-weight: 800;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trai {
+    float: left;
+    width: 10%;
+}
+
+.phai {
+    float: left;
+    width: 90%;
+}
+.twitter{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 60%;
+}
+article {
+    border: solid 0.5px black;
+    padding: 16px;
+    /* margin-top: 10%; */
+}
+.lienhe2{
+    margin-top: 5%;
+}
+.so1,.so2{
+    float: left;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #58257b;
+    border-radius: 4px;
+}
+.so3{
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.so4{
+    color:black;
+    font-size:12px;
+    font-weight: 600;
+    height: 30px;
+    width: 120px;
+    background: #fec500;
+    border:none;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.bando{
+    width: 100%;
+    height: 200px;
+    opacity: 1;
+}
+.map{
+    margin-top:5%;
+    position: relative;
+    z-index: 6;
+}
+.lopden{
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #00000073;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
 }
