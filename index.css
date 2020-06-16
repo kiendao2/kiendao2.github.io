@@ -569,20 +569,97 @@ article {
     /* padding-left: 10px; */
     padding-left: 10px;
 }
-.trai{
+/* .trai{
     width:115px;
     height: 118px;
     object-fit: cover;
-}
-/* .bentrai2{
-    background: url("images/blog_2_03.jpg");
-    width: 150px;
-    height: 100px;
-    background-size: cover;
-}
-.bentrai3{
-    background: url("images/blog_4_03.jpg");
-    width: 150px;
-    height: 100px;
-    background-size: cover;
 } */
+/*  css cho blog 1 */
+::-webkit-input-placeholder {
+    font-style: italic;
+  }
+.search-box {
+    display: inline-block;
+    width: 100%;
+    border-radius: 3px;
+    /* padding: 0px 0px 0px 15px; */
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    }
+     
+    .search-box.hovered, .search-box:hover, .search-box:active {  
+    border: 1px solid #aaa;
+    }
+     
+    .search-box input[type=text] { 
+     border: none;  
+    box-shadow: none;  
+    display: inline-block;  
+    padding: 0;  
+    background: transparent;
+    }
+     
+    .search-box input[type=text]:hover, .search-box input[type=text]:focus, .search-box input[type=text]:active {  
+    box-shadow: none;
+    }
+     
+    .search-box .search-btn {
+    position: absolute;
+    right: 2px;
+    color: #fec500;
+    border-radius: 3px;
+    font-size: 21px;
+    /* padding: 5px 10px 1px; */
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    }
+    .Title1{
+        font-size: 17px;
+        font-weight: 800;
+    }
+    ul.tag{
+        margin-left: 5%;
+        list-style: circle;
+        padding-top: 10px;
+    }
+    nav.tag1{
+        border-bottom: solid 1px #00000094;
+        padding-top: 10px;
+    }
+    .building1{
+        background: #fec500;
+        width: 100px;
+        height: 20px;
+    }
+    .btn.btn:hover{
+        background: #fec500 !important;
+    }
+    nav.tag2{
+        padding-top: 10px;
+    }
+    .anhBlog{
+        width: 100%;
+        height: 300px;
+    }
+    button.submition {
+        background: #fec500;
+        border: none;
+        border-radius: 3px;
+        border: solid 1px #00000069;
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:10px;
+    }
+    .blog1_article{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+   
