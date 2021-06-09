@@ -3,6 +3,10 @@ $(document).ready(function () {
         e.preventDefault();
         alert('Dang ki thanh cong !');
     });
+    $('i.fas.fa-search').click(function (e) { 
+        e.preventDefault();
+        $('i.fas.fa-search').toggleClass('danhmucsp');
+    });
 });
 function checkPw(form) {
     pw1 = form.pw1.value;
@@ -13,8 +17,5 @@ function checkPw(form) {
     }
     else return alert('Để lại lời nhắn thành công !');
 }
-setTimeout(function(){
-    alert("Để lại lời nhắn phía cuối trang :< ");
-}, 20000);
 var d= new Date();
 console.log(d);

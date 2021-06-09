@@ -702,3 +702,13 @@ article {
 .ourProject2{
   padding: 20px 20px;  
 }
+.danhmucsp{
+    content:"";
+    background:black;
+    height: 10px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    
+}
